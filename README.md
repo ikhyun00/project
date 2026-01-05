@@ -1,4 +1,4 @@
-<div align="center">
+ㅇ<div align="center">
   <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white">
   <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white">
@@ -111,7 +111,7 @@
 # 보고서
 - 프로젝트 상세 내용은 PDF 보고서를 참고해 주세요
 - 최종 보고서 : [당뇨병 예측 모델링: 통계분석 및 머신러닝 접근](report/프로젝트보고서.pdf)
-- 분석 코드 : [분석 코드](ml_pipeline_cleaned.ipynb)
+- 분석 코드 : [분석 코드](./analysis/ml_pipeline_cleaned.ipynb)
 
 ---
 
