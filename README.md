@@ -103,6 +103,17 @@
 ---
 
 ## 8. Conclusion
+
+### 🔹 모델 성능 비교 (변수 제거 전 / 후)
+
+| Model | Accuracy | Recall | F1-Score | AUC-ROC |
+| :--- | :--- | :--- | :--- | :--- |
+| Logistic Regression | 0.63 | 0.61 | 0.62 | 0.69 |
+| Decision Tree | 0.65 | 0.60 | 0.62 | 0.70 |
+| XGBoost | 0.67 | 0.63 | 0.65 | 0.72 |
+| LightGBM (All Features) | 0.68 | 0.65 | 0.66 | 0.73 |
+| **LightGBM (Reduced Features)** | **0.68** | **0.65** | **0.66** | **0.73** |
+
 - 설문 기반 생활습관 및 대사 관련 지표만을 활용하였음에도 불구하고, 
   당뇨병(전단계 포함) 위험을 합리적인 수준에서 예측할 수 있음을 확인함
 - Feature Importance 분석을 통해 예측 기여도가 낮은 변수를 제거하더라도 
